@@ -1,0 +1,27 @@
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 */24 * * *" # Roda a cada 24 horas. Você pode ajustar a frequência.
+  workflow_dispatch: # Permite rodar manualmente o workflow.
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: Platane/snk@v3
+        id: snake-gif
+        with:
+          github_user_name: luizdessunte # IMPORTANTE: Substitua com SEU nome de usuário do GitHub!
+          outputs: |
+            ./github-contribution-grid-snake.svg
+            ./github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: crazy-max/ghaction-github-pages@v2
+        with:
+          target_branch: output
+          build_dir: .
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
