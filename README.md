@@ -59,7 +59,6 @@
 <p align="center">
     <img src="https://github.com/luizdessunte/luizdessunte/blob/output/github-contribution-grid-snake.svg" alt="snake" />
 </p>
-
 ---
 
 <h3 align="left">Apoie minha jornada:</h3>
