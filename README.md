@@ -1,5 +1,5 @@
 <h1 align="center">Olá 👋, sou Luiz Henrique Dessunte</h1>
-<h3 align="center">Um desenvolvedor back-end apaixonado do Brasil</h3>
+<h3 align="center">Um desenvolvedor back-end apaixonado do Brasil. Atualmente, estou cursando Análise e Desenvolvimento de Sistemas e participando do Programa ONE Brasil, que complementa minha formação acadêmica e fortalece meus conhecimentos em desenvolvimento de back-end. Como parte desse percurso, tenho concluído certificações em lógica de programação e estruturação web, almejando uma futura oportunidade no mercado como Estagiário ou Desenvolvedor Júnior, sempre pautado pela colaboração e pelo desejo contínuo de aprendizado.</h3>
 
 ---
 
